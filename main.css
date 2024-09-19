@@ -9,13 +9,6 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-/* .flex{
-    display: flex;
-    color: white;
-    padding-bottom: 12%;
-    gap: 2rem;
-    object-fit: cover;
-} */
 ::selection {
     background-color: #207178;
     color: white;
@@ -1110,7 +1103,7 @@ header.active #bar {
     top: 0;
     left: 0;
     width: 100%;
-    height: 98%;
+    height: 91%;
     background: rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
@@ -1149,6 +1142,9 @@ header.active #bar {
 @media(max-width: 768px) {
     .footer-image .image1 {
         width: calc(100% / 3);
+    }
+    header .logo a {
+        font-size: 18px;
     }
 }
 
@@ -1246,7 +1242,9 @@ header.active #bar {
         width: 100%;
     }
 }
-
+.team-one swiper-slide img {
+    object-fit: cover;
+}
 .top {
     position: fixed;
     bottom: 50px;
